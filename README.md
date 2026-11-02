@@ -29,7 +29,7 @@ must be connected once:
 3. Select this repository, the `main` branch, and `main.py`, then deploy.
 4. In the GitHub repository settings, create a repository variable named
    `STREAMLIT_APP_URL` containing the public app URL, for example
-   `https://your-app-name.streamlit.app`.
+   `https://iris-mlops-project.streamlit.app/`.
 5. If desired, protect the `production` GitHub environment with a required approval.
 
 After this one-time setup, every push to `main` runs the tests and Docker build.
